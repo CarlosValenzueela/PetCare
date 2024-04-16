@@ -1,0 +1,33 @@
+<resources>
+
+    <!-- Pantalla principal -->
+    <string name="app_name">PetCare</string>
+    <string name="iniciarSesion">Iniciar sesión</string>
+    <string name="descripcion">PetCare, cuidandolos por ti.</string>
+
+
+    <!-- Registro -->
+    <string name="usuario">Usuario</string>
+    <string name="contrasenia">Contraseña</string>
+    <string name="nombre">Nombre completo</string>
+    <string name="correo">Correo</string>
+    <string name="registrarse">Registrarse</string>
+    <string name="crearCuenta">Crear cuenta</string>
+
+
+    <!--General-->
+    <string name="agregarNuevo">Agregar nuevo</string>
+    <string name="regresar">Regresar</string>
+    <string name="siguiente">Siguiente</string>
+
+
+
+    <string name="agregarMascota">Agregar mascota</string>
+    <string name="agregarMascotaFoto">Agregar foto</string>
+    <string name="ver">Ver</string>
+    <string name="administrar">Administrar</string>
+
+
+
+
+</resources>

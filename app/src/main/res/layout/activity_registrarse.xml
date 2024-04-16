@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingHorizontal="40dp"
+    android:background="@color/white"
+    tools:context=".Registrarse">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/registrarse"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="45sp"
+        android:layout_marginTop="15dp"
+        />
+
+    <EditText
+        android:id="@+id/etUsuario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/usuario"
+        android:textColorHint="@color/black"
+        android:inputType="text"
+        android:textSize="30sp"
+        android:textColor="@color/black"
+        android:layout_marginTop="70dp"
+        />
+
+    <EditText
+        android:id="@+id/etNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/nombre"
+        android:textColorHint="@color/black"
+        android:inputType="textPassword"
+        android:textSize="30sp"
+        android:layout_marginTop="@dimen/inputMargin"
+        />
+
+    <EditText
+        android:id="@+id/etCorreo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/correo"
+        android:textColorHint="@color/black"
+        android:inputType="text"
+        android:textSize="30sp"
+        android:layout_marginTop="@dimen/inputMargin"
+        />
+
+    <EditText
+        android:id="@+id/etContrasenia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/contrasenia"
+        android:inputType="text"
+        android:textSize="30sp"
+        android:layout_marginTop="@dimen/inputMargin"
+        android:textColorHint="@color/black"
+        />
+
+
+    <Button
+        android:id="@+id/btn_registrarse"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:textSize="25sp"
+        android:background="@drawable/round_button_gris"
+        android:text="@string/registrarse"
+        android:textColor="@color/white"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="20dp"
+        />
+
+    <Button
+        android:id="@+id/btn_regresar"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:textSize="25sp"
+        android:background="@drawable/round_button_gris"
+        android:text="@string/regresar"
+        android:textColor="@color/white"
+        android:layout_gravity="center"
+        />
+
+</LinearLayout>
